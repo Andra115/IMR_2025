@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="picture_2" size="0.215000 0.363001" />
+    <ImageTarget name="aventurine_testing" size="0.215000 0.120937" />
+  </Tracking>
+</QCARConfig>
