@@ -648,11 +648,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8648425310868573238, guid: 818c5a1ba0d9810439f11299463f2294, type: 3}
   m_PrefabInstance: {fileID: 1195075181}
   m_PrefabAsset: {fileID: 0}
---- !u!95 &1195075183 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 8033698545883803558, guid: 818c5a1ba0d9810439f11299463f2294, type: 3}
-  m_PrefabInstance: {fileID: 1195075181}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1195075185
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -665,9 +660,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 540694979184b4720a57b5ba59ac7a13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  otherCharacter: {fileID: 2029125038}
-  animator: {fileID: 1195075183}
-  attackDistance: 0.25
+  thisObject: {fileID: 1004853058}
+  otherObject: {fileID: 2029125039}
+  minimumDistance: 1
 --- !u!1001 &2029125037
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -786,14 +781,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 540694979184b4720a57b5ba59ac7a13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  otherCharacter: {fileID: 1195075182}
-  animator: {fileID: 2029125041}
-  attackDistance: 0.25
---- !u!95 &2029125041 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 6147876873679586677, guid: 252ba5fa5d8167e42af72cf97baa830e, type: 3}
-  m_PrefabInstance: {fileID: 2029125037}
-  m_PrefabAsset: {fileID: 0}
+  thisObject: {fileID: 2029125039}
+  otherObject: {fileID: 1004853058}
+  minimumDistance: 1
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
